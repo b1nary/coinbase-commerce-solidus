@@ -19,10 +19,10 @@ Gem::Specification.new do |s|
   s.require_path = 'lib'
   s.requirements << 'none'
 
-  spree_version = '>= 3.1.0', '< 4.0'
-  s.add_dependency 'spree_core', spree_version
-  s.add_dependency 'spree_backend', spree_version
-  s.add_dependency 'spree_extension'
+  spree_version = '>= 3.1.0', '< 6.0'
+  s.add_dependency 'solidus_core', spree_version
+  s.add_dependency 'solidus_backend', spree_version
+  s.add_dependency 'solidus_extension'
 
   s.add_development_dependency 'appraisal'
   s.add_development_dependency 'capybara'
