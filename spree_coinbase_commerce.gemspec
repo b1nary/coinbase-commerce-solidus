@@ -22,7 +22,6 @@ Gem::Specification.new do |s|
   spree_version = '>= 2.8.0', '< 6.0'
   s.add_dependency 'solidus_core', spree_version
   s.add_dependency 'solidus_backend', spree_version
-  s.add_dependency 'solidus_extension'
 
   s.add_development_dependency 'appraisal'
   s.add_development_dependency 'capybara'
